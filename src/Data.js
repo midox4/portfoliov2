@@ -161,7 +161,6 @@ export const contacts = [
     id: 1,
     icon: <FaMapMarkerAlt />,
     infoText: "05 Road 20 March, Kairouan Tunisia",
-    url:'https://google.com'
   },
   {
     id: 2,
