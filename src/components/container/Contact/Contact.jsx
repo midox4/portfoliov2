@@ -91,6 +91,7 @@ const Contact = () => {
                 placeholder="Full Name"
                 name="fname"
                 required
+                autofocus
               />
             </div>
             <div className="row">
