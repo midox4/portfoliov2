@@ -11,10 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Button } from "react-bootstrap";
 
 const Contact = () => {
-  const succes = () =>
-    toast.success("Message Sent Successfully !", {
-      position: toast.POSITION.BOTTOM_RIGHT,
-    });
+ // const succes = () =>
 
   const form = useRef();
 
@@ -37,7 +34,11 @@ const Contact = () => {
         }
       );
     e.target.reset();
-    succes(); // Display toast on successful email send
+    //succes(); // Display toast on successful email send
+        toast.success("Message Sent Successfully !", {
+      position: toast.POSITION.BOTTOM_RIGHT,
+    });
+
   };
 
   return (
